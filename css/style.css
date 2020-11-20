@@ -6,8 +6,7 @@ Light Blue: #076dbb
 Very Light Blue: #3190c4
 Light Gray: #eeeeee
 */
-
-body{
+body {
   background-color: #eeeeee;
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
@@ -41,12 +40,14 @@ h4 {
 }
 
 img {
-  width: 100%; /* Make images scale correctly  */
+  width: 100%;
+  /* Make images scale correctly  */
 }
 
-a{
+a {
   color: #076Dbb;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
 
 a:visited {
@@ -56,14 +57,15 @@ a:visited {
 a:hover,
 a:focus {
   color: #3190c4;
-  text decoration: underline; /* Underlining when hovering over link */
+  text-decoration: underline;
+  /* Underlining when hovering over link */
 }
 
 a:active {
   color: #033f6d;
 }
 
-.button {
+.button.readMore {
   display: inline-block;
   background-color: #076dbb;
   color: #ffffff;
@@ -74,18 +76,21 @@ a:active {
   transition: 0.2s opacity;
 }
 
-.button:hover {
+.button.readMore:hover {
   opacity: 0.8;
   text-decoration: none;
 }
 
-.button:active {
+.button.readMore:active {
   color: #033f6d;
 }
 
 .button.contact {
   background-color: transparent;
   color: #076dbb;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
   text-transform: uppercase;
   border: 2px solid #076dbb;
 }
@@ -93,4 +98,5 @@ a:active {
 .button.contact:hover {
   background-color: #076dbb;
   color: #ffffff;
+  text-decoration: none;
 }
