@@ -6,18 +6,19 @@
   <title>Study Together</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body id="main-page">
   <header>
-    <div>
+    <div class="container">
       <a href="index.html">
-        <img src="img/logo.svg" alt="Tim Panek" />
+        <img src="img/logo.svg" alt="Tim Panek" class="logo" />
       </a>
     </div>
-    <nav>
+    <nav class="container">
       <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
@@ -28,7 +29,7 @@
 
   <main id="main-content">
     <div>
-      <div>
+      <div class="container">
         <h1>Study Together</h1>
         <picture>
           <source srcset="img/study_together/mockups/mockup_wireframe_float@1x.jpg" media="
@@ -38,38 +39,44 @@
       </div>
     </div>
 
-    <div>
-      <h2>About</h2>
+    <div class="container">
       <div>
-        <ul>
-          <li>Responsive Web App</li>
-          <li>New Jersey, USA</li>
-          <li>2 Months</li>
-        </ul>
-      </div>
-      <div>
-        <h2>My Role</h2>
-        <div>
-          <ul>
-            <li>UX Designer</li>
-            <li>UI Designer</li>
-            <li>User-Centered Design</li>
-          </ul>
+        <div class="row">
+          <h2>About</h2>
           <div>
-            <h2>Tools</h2>
+            <ul>
+              <li>Responsive Web App</li>
+              <li>New Jersey, USA</li>
+              <li>2 Months</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <h2>My Role</h2>
             <div>
               <ul>
-                <li>Sketch</li>
-                <li>InVision</li>
-                <li>Balsamiq</li>
+                <li>UX Designer</li>
+                <li>UI Designer</li>
+                <li>User-Centered Design</li>
               </ul>
             </div>
-          </div>
+            </div>
+            <div class="row">
+              <h2>Tools</h2>
+              <div>
+                <ul>
+                  <li>Sketch</li>
+                  <li>InVision</li>
+                  <li>Balsamiq</li>
+                </ul>
+              </div>
+            </div>
         </div>
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>An Overview</h3>
       <h4>The Problem</h4>
       <ul>
@@ -85,7 +92,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Understanding Our User, Alex Jones</h3>
       <h4>User Persona</h4>
       <picture>
@@ -101,7 +108,7 @@
       </picture>
     </div>
 
-    <div>
+    <div class="container">
       <h3>User Flow & User Stories</h3>
       <h2>Site Map</h2>
       <picture>
@@ -111,18 +118,21 @@
       </picture>
       <h2>User Flows with User Stories</h2>
       <div>
+        <div class="row">
         <picture>
           <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_1_and_2@1x.png" media="
     (max-width:767px)">
           <img src="img/study_together/user_flows_stories_journies/user_flow_and_stories_1_and_2@2x.png" alt="MyImage" />
         </picture>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_3_and_4@1x.png" media="
       (max-width:767px)">
             <img src="img/study_together/user_flows_stories_journies/user_flow_and_stories_3_and_4@2x.png" alt="MyImage" />
           </picture>
-          <div>
+        </div>
+          <div class="row">
             <picture>
               <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_5_and_6@1x.png" media="
         (max-width:767px)">
@@ -131,9 +141,8 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div>
+    <div class="container">
       <h3>Low Fidelity Wireframes and Rapid Prototyping</h3>
       <h4>Paper/Pencil Flow: Create A Profile, Search For A Student and Connect</h4>
       <picture>
@@ -143,15 +152,17 @@
       </picture>
       <h4>Low Fidelity Prototype</h4>
       <p>Once my low fidelity wireframes were created, I quickly developed a clickable prototype for user testing.</p>
+<div id="low-fidelity_landing">
       <picture>
         <source srcset="img/study_together/mobile/low_fidelity_landing_for_prototype@1x.png" media="
   (max-width:767px)">
         <img src="img/study_together/mobile/low_fidelity_landing_for_prototype@2x.png" alt="MyImage" />
       </picture>
+    </div>
       <p>View my initial clickable prototype <a href="https://projects.invisionapp.com/share/Y4Y8JENT9A6#/screens" target="_blank">here.</a></p>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Low Fidelity User Testing</h3>
       <h4>About The Tests</h4>
       <p>With informed consent and a test script, I conducted 3 user tests.</p>
@@ -183,7 +194,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>From Low Fidelity to High Fidelity</h3>
       <h4>Mood Board</h4>
       <p>By developing a mood board, I was able to help generate a creative direction for my high fidelity wireframes and mockups.</p>
@@ -200,6 +211,7 @@
       <h4>The Iterative Process</h4>
       <p>Created with Paper/Pencil, Balsamiq, and then Sketch.</p>
       <div>
+        <div class="row">
         <picture>
           <source srcset="img/study_together/mobile/low_to_high-home_screen@1x.jpg" media="
     (max-width:767px)">
@@ -213,9 +225,10 @@
             <img src="img/study_together/mobile/low_to_high_profile@2x.jpg" alt="MyImage" />
           </picture>
           <p>Profile</p>
+          </div>
         </div>
       </div>
-      <div>
+      <div class="div">
         <picture>
           <source srcset="img/study_together/mobile/low_to_high-search@1x.jpg" media="
     (max-width:767px)">
@@ -233,22 +246,25 @@
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Style Guide</h3>
       <p>To view the full Style Guide, click <a href="files/study_together_style_guide.pdf" target="_blank">here.</a></p>
       <div>
+        <div class="row">
         <picture>
           <source srcset="img/study_together/style_guide/style_guide_sample-color@1x.jpg" media="
     (max-width:767px)">
           <img src="img/study_together/style_guide/style_guide_sample-color@2x.jpg" alt="MyImage" />
         </picture>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/study_together/style_guide/style_guide_sample-typography@1x.jpg" media="
       (max-width:767px)">
             <img src="img/study_together/style_guide/style_guide_sample-typography@2x.jpg" alt="MyImage" />
           </picture>
-          <div>
+          </div>
+          <div class="row">
             <picture>
               <source srcset="img/study_together/style_guide/style_guide_sample-iconography@1x.jpg" media="
         (max-width:767px)">
@@ -262,11 +278,10 @@
               </picture>
             </div>
           </div>
-        </div>
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Responsive Design</h3>
       <h4>Mobile First Design</h4>
       <p>After developing the mobile app, I developed tablet and desktop iterations.</p>
@@ -290,7 +305,7 @@
       <p>Profile</p>
     </div>
 
-    <div>
+    <div class="container">
       <h3>See For Yourself: Clickable Prototype</h3>
       <h4>User Flows</h4>
       <ol>
@@ -302,20 +317,25 @@
         <li>View your profile so you can check comments/peer feedback.</li>
       </ol>
       <h4>Mobile Prototype</h4>
+      <div id="study_together_home">
       <picture>
         <source srcset="img/study_together/mobile/home_screen_mobile@1x.jpg" media="
   (max-width:767px)">
         <img src="img/study_together/mobile/home_screen_mobile@2x.jpg" alt="MyImage" />
       </picture>
+    </div>
       <p>Explore the mobile prototype by clicking <a href="https://projects.invisionapp.com/share/M6YTOSEHPVN#/screens" target="_blank">here.</a></p>
     </div>
-    <div>
+
+    <div class="container">
+      <div class="row">
       <picture>
         <source srcset="img/study_together/mockups/mockup-landing_screen@1x.jpg" media="
   (max-width:767px)">
         <img src="img/study_together/mockups/mockup-landing_screen@2x.jpg" alt="MyImage" />
       </picture>
-      <div>
+    </div>
+      <div class="row">
         <picture>
           <source srcset="img/study_together/mockups/mockup-search@1x.jpg" media="
     (max-width:767px)">
@@ -326,7 +346,7 @@
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>Get in Touch
       </h2>
       <p>I would love to meet you to discuss my work in more detail and how my
@@ -335,26 +355,28 @@
       <div>
         <a href="mailto:tpanek05@gmail.com" class="button contact">Email Me</a>
       </div>
-      <div>
-        <a href="https://linkedin.com/in/timothypanek" target="_blank">
-          <?xml version="1.0" ?>
-          <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512"
-            width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="g5891">
-              <path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;" />
-              <g id="shapes">
-                <rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667" />
-                <path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0"
-                  style="fill:#fff;fill-rule:nonzero;" />
-                <path
-                  d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z"
-                  id="path15" style="fill:#fff;fill-rule:nonzero;" />
+      <div class="row">
+        <div id="linkedin">
+          <a href="https://linkedin.com/in/timothypanek" target="_blank">
+            <?xml version="1.0" ?>
+            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+              viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="g5891">
+                <path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;" />
+                <g id="shapes">
+                  <rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667" />
+                  <path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0"
+                    style="fill:#fff;fill-rule:nonzero;" />
+                  <path
+                    d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z"
+                    id="path15" style="fill:#fff;fill-rule:nonzero;" />
+                </g>
               </g>
-            </g>
-          </svg>
-        </a>
+            </svg>
+          </a>
+        </div>
+        <p>Copyright Timothy Panek 2020</p>
       </div>
-      <p>Copyright Timothy Panek 2020</p>
     </div>
   </footer>
 </body>
