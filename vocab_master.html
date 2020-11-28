@@ -6,18 +6,19 @@
   <title>Vocab Master</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body id="main-page">
   <header>
-    <div>
+    <div class="container">
       <a href="index.html">
-        <img src="img/logo.svg" alt="Tim Panek" />
+        <img src="img/logo.svg" alt="Tim Panek" class="logo"/>
       </a>
     </div>
-    <nav>
+    <nav class="container">
       <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
@@ -27,18 +28,20 @@
   </header>
 
   <main id="main-content">
-    <div>
+    <div class="container">
       <div>
         <h1>Vocab Master</h1>
+        <div id="vocab_master_image_header">
         <picture>
           <source srcset="img/home_page_imagery/vocab_master_mockup@1x.png" media="
           (max-width:767px)">
           <img src="img/home_page_imagery/vocab_master_mockup@2x.png" alt="MyImage" />
         </picture>
       </div>
+      </div>
     </div>
 
-    <div>
+    <div class="container">
       <h2>About</h2>
       <div>
         <ul>
@@ -70,7 +73,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Why Vocab Master?</h3>
       <h4>The Problem</h4>
       <ul>
@@ -84,15 +87,20 @@
       </ul>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Competitive Analysis - Let's see what others are doing.</h3>
       <div>
+        <div class="row">
+          <div id="flash_cards_plus_icon">
         <picture>
           <source srcset="img/vocab_master/competitive_analysis_imagery/flash_cards@1x.png" media="
       (max-width:767px)">
           <img src="img/vocab_master/competitive_analysis_imagery/flash_cards@2x.png" alt="MyImage" />
         </picture>
+      </div>
+      </div>
         <div>
+          <div class="row">
           <p>Pros</p>
           <p>Flash Cards Plus has a very simple navigation making it easy to create cards and add decks.
             There is an option for talk-to-text. They use familiar icons that users would expect to see.
@@ -101,19 +109,27 @@
           <p>Cons</p>
           <p>There are numerous ad interruptions that make task completion difficult and make it frustrating
             to use. </p>
+          </div>
           <div>
+            <div class="row">
             <picture>
               <source srcset="img/vocab_master/competitive_analysis_imagery/flash_cards_screen_shots@1x.png" media="
             (max-width:767px)">
               <img src="img/vocab_master/competitive_analysis_imagery/flash_cards_screen_shots@2x.png" alt="MyImage" />
             </picture>
+          </div>
             <div>
+              <div class="row">
+                <div id="flash_cards_io_icon">
               <picture>
                 <source srcset="img/vocab_master/competitive_analysis_imagery/flash_cards_io@1x.png" media="
               (max-width:767px)">
                 <img src="img/vocab_master/competitive_analysis_imagery/flash_cards_io@2x.png" alt="MyImage" />
               </picture>
+            </div>
+            </div>
               <div>
+                <div>
                 <p>Pros</p>
                 <p>Flash Cards.io is simple and easy to use with familiar icons. It has a night shift mode
                   which makes it easier to use in bed or as a vehicle passenger at night. There is a share
@@ -123,19 +139,27 @@
                 <p>If the user does not focus on the onboarding process, the use of the app is confusing
                   at times and is not as intuitive as it should be. Onboarding also neglects to display all
                   of the available options which creates confusion when using the app.</p>
+              </div>
                 <div>
+                  <div class="row">
                   <picture>
                     <source srcset="img/vocab_master/competitive_analysis_imagery/flash_cards_io_screen_shots@1x.png" media="
                   (max-width:767px)">
                     <img src="img/vocab_master/competitive_analysis_imagery/flash_cards_io_screen_shots@2x.png" alt="MyImage" />
                   </picture>
+                </div>
                   <div>
+                    <div class="row">
+                      <div id="study_blue_icon">
                     <picture>
                       <source srcset="img/vocab_master/competitive_analysis_imagery/study_blue@1x.png" media="
                     (max-width:767px)">
                       <img src="img/vocab_master/competitive_analysis_imagery/study_blue@2x.png" alt="MyImage" />
                     </picture>
+                  </div>
+                  </div>
                     <div>
+                      <div class="row">
                       <p>Pros</p>
                       <p>Study Blue allows users to identify a connection to their school and specific classes.
                         It Allows users to connect to others by uploading decks that others can access. No ads
@@ -145,12 +169,15 @@
                       <p>With the high number of features, the onboarding process should have been more comprehensive.
                         Upon accessing decks that other users have uploaded, their accuracy is uncertain because they’re
                         only as accurate as what the users have referenced.</p>
+                      </div>
                       <div>
+                        <div class="row">
                         <picture>
                           <source srcset="img/vocab_master/competitive_analysis_imagery/study_blue_screen_shots@1x.png" media="
                         (max-width:767px)">
                           <img src="img/vocab_master/competitive_analysis_imagery/study_blue_screen_shots@2x.png" alt="MyImage" />
                         </picture>
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -162,7 +189,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>User Research: Let's learn about our word enthusiasts.</h3>
       <h4>Research Goals</h4>
       <ul>
@@ -171,17 +198,23 @@
         <li>Understand users' study sessions - where, with whom, and how long study sessions are.</li>
         <li>Identify methods/stategies used in the past when studying words.</li>
       </ul>
+
+      <div class="container">
       <h2>In-person User Interviews (4 Participants)</h2>
       <p>4 adults were interviewed (via in-person or Skype) about their vocabulary learning experiences.</p>
       <p>View the full interview data <a href="files/vocab_master_interview_data.pdf" target="_blank">here.</a></p>
+      <div class="row">
       <p>"I really enjoy using new words in context because I'm always looking for new ways to express myself."
         - College Mental Health Counselor</p>
       <p>"When I'm learning new words, it's usually through reading and it's not always easy to know if I'm
         pronouncing it correctly." - Teacher"</p>
+      </div>
+      <div class="row">
       <p>"I usually study for short periods of time by myself but then I try to use the terms with colleagues
         and friends." - Neuroscientist</p>
       <p>"I like to use flash cards, memorable sentences, small illustrations or cartoons, and mnemonic
         devices." - Children's Librarian</p>
+      </div>
       <h4>Solutions</h4>
       <ol>
         <li>Allow users to create an account so they can save their flash cards.</li>
@@ -190,8 +223,9 @@
         <li>Allow users to quickly and easily access and practice their flash cards.</li>
       </ol>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>Who are our users?</h3>
       <h4>Proto Persona</h4>
       <picture>
@@ -201,9 +235,10 @@
       </picture>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Information Architecture</h3>
       <h4>User Flows</h4>
+      <div class="row">
       <picture>
         <source srcset="img/vocab_master/information_architecture_imagery/create_flash_cards_user_flow1@1x.jpg" media="
     (max-width:767px)">
@@ -217,8 +252,9 @@
       </picture>
       <p>Practice Flash Cards</p>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>Low Fidelity Wireframes and Initial Prototyping</h3>
       <h4>Paper/Pencil Flow - Onboarding, Create an Account, Create Flash Cards</h4>
       <picture>
@@ -228,7 +264,7 @@
       </picture>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Usability Testing</h3>
       <h4>About the Tests</h4>
       <p>With informed consent and a test script, I conducted 4 user tests.</p>
@@ -248,36 +284,45 @@
       </picture>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Applying User Feedback</h3>
       <h4>Revising the Design</h4>
       <p>I applied changes to the low fidelity wireframes based on the usability test data.</p>
+      <div class="row">
       <picture>
         <source srcset="img/vocab_master/wireframes_changes/log_in_screen_iterations@1x.png" media="
     (max-width:767px)">
         <img src="img/vocab_master/wireframes_changes/log_in_screen_iterations@2x.png" alt="MyImage" />
       </picture>
       <p>Added a Log In button</p>
+    </div>
+    <div class="row">
       <picture>
         <source srcset="img/vocab_master/wireframes_changes/folder_screen_iterations@1x.png" media="
     (max-width:767px)">
         <img src="img/vocab_master/wireframes_changes/folder_screen_iterations@2x.png" alt="MyImage" />
       </picture>
       <p>Added a clearer path to add new cards, options for sub folders, and a way to edit cards in the folder.</p>
+</div>
+<div class="row">
       <picture>
         <source srcset="img/vocab_master/wireframes_changes/flash_card_screen_iterations@1x.png" media="
     (max-width:767px)">
         <img src="img/vocab_master/wireframes_changes/flash_card_screen_iterations@2x.png" alt="MyImage" />
       </picture>
       <p>Added a "back" button</p>
+    </div>
       <h4>Up to Mid Fidelity</h4>
       <p>I used Balsamiq to bring the hand drawn wireframes up to mid fidelity.</p>
+      <div class="row">
       <picture>
         <source srcset="img/vocab_master/information_architecture_imagery/create_flash_cards_balsamiq@1x.jpg" media="
     (max-width:767px)">
         <img src="img/vocab_master/information_architecture_imagery/create_flash_cards_balsamiq@2x.jpg" alt="MyImage" />
       </picture>
       <p>Onboarding, Create Account, Create Flash Cards</p>
+    </div>
+    <div class="row">
       <picture>
         <source srcset="img/vocab_master/information_architecture_imagery/practice_flash_cards_balsamiq@1x.jpg" media="
     (max-width:767px)">
@@ -285,8 +330,9 @@
       </picture>
       <p>Practice Flash Cards</p>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>Updated Clickable Prototype</h3>
       <h4>User Flows</h4>
       <ol>
@@ -296,15 +342,17 @@
         <li>View your account information.</li>
       </ol>
       <h4>Mid Fidelity Prototype</h4>
+      <div id="vocab_master_midfidelity_home">
       <picture>
         <source srcset="img/vocab_master/wireframes_changes/vocab_master_home@1x.png" media="
     (max-width:767px)">
         <img src="img/vocab_master/wireframes_changes/vocab_master_home@2x.png" alt="MyImage" />
       </picture>
+    </div>
       <p>Explore the mobile prototype by clicking <a href="https://projects.invisionapp.com/share/WRZAA2PUYCD#/screens" target="_blank">here.</a></p>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Next Steps</h3>
       <p>This app was create as part of my UX Fundamentals course. As a result, I was not tasked with continuing the design further.
         However, there are next steps that I would take if I were to move foward with this app.</p>
@@ -321,7 +369,7 @@
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>Get in Touch
       </h2>
       <p>I would love to meet you to discuss my work in more detail and how my
@@ -330,7 +378,8 @@
       <div>
         <a href="mailto:tpanek05@gmail.com" class="button contact">Email Me</a>
       </div>
-      <div>
+      <div class="row">
+      <div id="linkedin">
         <a href="https://linkedin.com/in/timothypanek" target="_blank">
           <?xml version="1.0" ?>
           <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512"
@@ -351,6 +400,7 @@
       </div>
       <p>Copyright Timothy Panek 2020</p>
     </div>
+  </div>
   </footer>
 </body>
 
