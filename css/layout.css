@@ -1,0 +1,172 @@
+/* layout styling */
+
+.container {
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#lane-side_coach_work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #24344f;
+}
+
+#study_together_work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #24344f;
+}
+
+#vocab_master_work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #24344f;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#lane-side_coach_work h2 {
+  text-align: center;
+}
+
+#lane-side_coach_work h3 {
+  text-align: center;
+}
+
+#study_together_work h3 {
+  text-align: center;
+}
+
+#vocab_master_work h3 {
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#about-content h1 {
+  text-align: center;
+}
+
+#my_story h2 {
+  text-align: center
+}
+
+#main-content h1 {
+  text-align: center
+}
+
+#main-content h2 {
+  text-align: center
+}
+
+#main-content h3 {
+  text-align: center
+}
+
+#main-content h4 {
+  text-align: center
+}
+
+#hero {
+  background-color: #eeeeee;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%
+}
+
+#linkedin {
+  width: 50px;
+  text-align: center;
+}
+
+#vocab_master_image {
+  width: 35%
+}
+
+#vocab_master_image_header {
+  width: 60%
+}
+
+#vocab_master_midfidelity_home {
+  width: 60%
+}
+
+#mobile_prototype_image {
+  width: 60%
+}
+
+#coach_up_logo {
+  width: 35%
+}
+
+#flash_cards_plus_icon {
+  width: 35%
+}
+
+#flash_cards_io_icon {
+  width: 35%
+}
+
+#study_blue_icon {
+  width: 35%
+}
+
+#low-fidelity_landing {
+  width: 60%
+}
+
+#study_together_home {
+  width: 60%
+}
+
+.logo {
+  max-width: 250px;
+}
+
+header{
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  width: 100%;
+}
+
+main {
+  padding-top: 108px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0
+}
+
+nav > ul > li{
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #076Dbb
+}
+
+nav > ul > li > a:visited {
+  color: #076Dbb
+}
+
+nav > ul > li > a:hover {
+  color: #3190c4
+}
+
+nav > ul > li > a:active {
+  color: #033f6d
+}
