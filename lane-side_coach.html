@@ -6,18 +6,19 @@
   <title>Lane-Side Coach</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body id="main-page">
   <header>
-    <div>
+    <div class="container">
       <a href="index.html">
-        <img src="img/logo.svg" alt="Tim Panek" />
+        <img src="img/logo.svg" alt="Tim Panek" class="logo"/>
       </a>
     </div>
-    <nav>
+    <nav class="container">
       <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
@@ -27,7 +28,7 @@
   </header>
 
   <main id="main-content">
-    <div>
+    <div class="container">
       <div>
         <h1>Lane-Side Coach</h1>
         <picture>
@@ -38,7 +39,8 @@
       </div>
     </div>
 
-    <div>
+    <div class="container">
+      <div class="row">
       <h2>About</h2>
       <div>
         <ul>
@@ -69,8 +71,9 @@
         </div>
       </div>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>The Inception of Lane-Side Coach</h3>
       <h4>The Problem</h4>
       <ul>
@@ -83,22 +86,24 @@
         <li>Provide coaches with a way to recruit bowlers in need of instruction.</li>
       </ul>
     </div>
-    <div>
+    <div class="container">
       <h3>A Starting Point: Competitive Analysis</h3>
       <p>
         I found no apps in the United States that connect bowlers with coaches.
       </p>
+ <div id="coach_up_logo">
       <picture>
         <source srcset="img/lane-side_coach/competitive_analysis/coachup_logo@1x.jpg" media="
     (max-width:767px)">
         <img src="img/lane-side_coach/competitive_analysis/coachup_logo@2x.jpg" alt="MyImage" />
       </picture>
+</div>
       <p>
         CoachUp helps athletes obtain coaches from 32 sports - not bowling.
       </p>
-    </div>
 
-    <div>
+
+    <div class="container">
       <h3>User Research: Learning About Bowlers and Coaches</h3>
       <h4>Research Goals</h4>
       <ol>
@@ -108,6 +113,7 @@
         <li>Identify the context in which users would use a bowling app.</li>
       </ol>
       <h4>User Surveys via Google Forms (11 Participants)</h4>
+      <div class="row">
       <picture>
         <source srcset="img/lane-side_coach/user_research/survey1@1x.jpg" media="
     (max-width:767px)">
@@ -138,6 +144,7 @@
     (max-width:767px)">
         <img src="img/lane-side_coach/user_research/survey6@2x.jpg" alt="MyImage" />
       </picture>
+    </div>
       <h4>In-person User Interviews (3 Participants)</h4>
       <p>"I'm not sure how I'd recruit students. My students found me through word of
         mouth. - Bowling Coach"</p>
@@ -155,6 +162,7 @@
         <li>Allow bowlers to message a coach to ask questions prior to booking.</li>
       </ol>
       <h4>Affinity Mapping - Let's make sense of this information.</h4>
+      <div class="row">
       <picture>
         <source srcset="img/lane-side_coach/affinity_maps/affinity_map@1x.jpg" media="
       (max-width:767px)">
@@ -166,11 +174,12 @@
         <img src="img/lane-side_coach/affinity_maps/affinity_map_clusters@2x.jpg" alt="MyImage" />
       </picture>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>Who Are Our Users?</h3>
       <h4>User Personas</h4>
-      <div>
+      <div class="row">
         <p>Identifying Jake Matthews - The Bowler</p>
         <ul>
           <li>Bowler research participants were motivated to improve their game through formal coaching but didn't know how to find a coach.</li>
@@ -184,7 +193,7 @@
         </picture>
         <p>Jake's Persona: The Bowler</p>
       </div>
-      <div>
+      <div class="row">
         <p>Identifying David Smith - The Coach</p>
         <ul>
           <li>Coach research participants wanted to help bowlers but didn’t have a place to advertise their services.</li>
@@ -198,6 +207,7 @@
         <p>David's Persona: The Bowling Coach</p>
       </div>
       <h4>User Journeys</h4>
+      <div class="row">
       <picture>
         <source srcset="img/lane-side_coach/user_flows_and_journies/user_journey-jake@1x.jpg" media="
     (max-width:767px)">
@@ -211,8 +221,9 @@
       </picture>
       <p>David's User Journey</p>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>Information Architecture - Let's Talk Structure</h3>
       <h4>Card Sort</h4>
       <ul>
@@ -262,7 +273,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="container">
       <h3>Low Fidelity Wireframes and Initial Prototyping</h3>
       <h4>Paper/Pencil Flow - Find a Coach and Schedule an Appointment</h4>
       <picture>
@@ -273,10 +284,11 @@
       <p>Bowler: Find a coach & schedule an appointment.</p>
     </div>
 
-    <div>
+    <div class="container">
       <h3>From Low Fidelity to High Fidelity</h3>
       <p>I brought all of my wireframes up to high fidelity prior to user testing.</p>
       <h4>These were created with Paper/Pencil, Balsamiq, and then Sketch.</h4>
+      <div class="row">
       <picture>
         <source srcset="img/lane-side_coach/mobile/low_to_high_login@1x.png" media="
     (max-width:767px)">
@@ -289,6 +301,8 @@
         <img src="img/lane-side_coach/mobile/low_to_high_search@2x.png" alt="MyImage" />
       </picture>
       <p>Search Results Screen</p>
+    </div>
+    <div>
       <picture>
         <source srcset="img/lane-side_coach/mobile/low_to_high_profile@1x.png" media="
     (max-width:767px)">
@@ -302,8 +316,9 @@
       </picture>
       <p>Desktop: Search Results</p>
     </div>
+  </div>
 
-    <div>
+    <div class="container">
       <h3>Usability Testing: Let's see how the design works.</h3>
       <h4>About the Tests</h4>
       <p>With informed consent and a test script, I conducted 6 user tests. You can
@@ -334,6 +349,7 @@
         <li>19 Participants</li>
         <li>Statistically significant results helped facilitate design decisions.</li>
       </ul>
+      <div class="row">
       <picture>
         <source srcset="img/lane-side_coach/preference_tests_and_card_sorts/preference_test_login@1x.png" media="
     (max-width:767px)">
@@ -347,8 +363,9 @@
       </picture>
       <p>Onboarding Screen</p>
     </div>
+    </div>
 
-    <div>
+    <div class="container">
       <h3>Applying User Feedback & UI Design</h3>
       <picture>
         <source srcset="img/lane-side_coach/mobile/iterations-login_screen@1x.png" media="
@@ -365,28 +382,28 @@
           <li>Improved color contrast</li>
         </ul>
       </ul>
-      <div>
+      <div class="row">
         <picture>
           <source srcset="img/lane-side_coach/desktop/iterations-desktop_login1@1x.jpg" media="
       (max-width:767px)">
           <img src="img/lane-side_coach/desktop/iterations-desktop_login1@2x.jpg" alt="MyImage" />
         </picture>
         <p>Desktop Login Iterations</p>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/lane-side_coach/desktop/iterations-desktop_login2@1x.jpg" media="
       (max-width:767px)">
             <img src="img/lane-side_coach/desktop/iterations-desktop_login2@2x.jpg" alt="MyImage" />
           </picture>
-          <div>
+        </div>
+          <div class="row">
             <picture>
               <source srcset="img/lane-side_coach/desktop/iterations-desktop_login3@1x.jpg" media="
       (max-width:767px)">
               <img src="img/lane-side_coach/desktop/iterations-desktop_login3@2x.jpg" alt="MyImage" />
             </picture>
           </div>
-        </div>
-      </div>
       <picture>
         <source srcset="img/lane-side_coach/mobile/iterations-home_screen@1x.png" media="
     (max-width:767px)">
@@ -398,19 +415,22 @@
         <li>Buttons were added to help the user more easily schedule and attend appointments.</li>
       </ul>
       <div>
+        <div class="row">
         <picture>
           <source srcset="img/lane-side_coach/desktop/iterations-desktop_home_screen1@1x.jpg" media="
       (max-width:767px)">
           <img src="img/lane-side_coach/desktop/iterations-desktop_home_screen1@2x.jpg" alt="MyImage" />
         </picture>
         <p>Desktop Home Screen Iterations</p>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/lane-side_coach/desktop/iterations-desktop_home_screen2@1x.jpg" media="
       (max-width:767px)">
             <img src="img/lane-side_coach/desktop/iterations-desktop_home_screen2@2x.jpg" alt="MyImage" />
           </picture>
-          <div>
+        </div>
+          <div class="row">
             <picture>
               <source srcset="img/lane-side_coach/desktop/iterations-desktop_home_screen3@1x.jpg" media="
       (max-width:767px)">
@@ -418,7 +438,6 @@
             </picture>
           </div>
         </div>
-      </div>
       <picture>
         <source srcset="img/lane-side_coach/mobile/iterations-search_results@1x.png" media="
     (max-width:767px)">
@@ -432,19 +451,22 @@
         <li>Bottom navigation has been designed for accessibility with selected icons being filled in and unselected icons being simply outlined.</li>
       </ul>
       <div>
+        <div class="row">
         <picture>
           <source srcset="img/lane-side_coach/desktop/iterations-desktop_search_results1@1x.jpg" media="
       (max-width:767px)">
           <img src="img/lane-side_coach/desktop/iterations-desktop_search_results1@2x.jpg" alt="MyImage" />
         </picture>
         <p>Desktop Search Results Screen Iterations</p>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/lane-side_coach/desktop/iterations-desktop_search_results2@1x.jpg" media="
       (max-width:767px)">
             <img src="img/lane-side_coach/desktop/iterations-desktop_search_results2@2x.jpg" alt="MyImage" />
           </picture>
-          <div>
+        </div>
+          <div class="row">
             <picture>
               <source srcset="img/lane-side_coach/desktop/iterations-desktop_search_results3@1x.jpg" media="
       (max-width:767px)">
@@ -452,7 +474,6 @@
             </picture>
           </div>
         </div>
-      </div>
       <picture>
         <source srcset="img/lane-side_coach/mobile/iterations-coach's_profile@1x.png" media="
     (max-width:767px)">
@@ -465,28 +486,28 @@
         <li>Buttons were changed to be consistent throughout the app.</li>
         <li>Demographic information's spacing was reformatted so that it would be easier to read.</li>
       </ul>
-      <div>
+      <div class="row">
         <picture>
           <source srcset="img/lane-side_coach/desktop/iterations-desktop_coach's_profile1@1x.jpg" media="
       (max-width:767px)">
           <img src="img/lane-side_coach/desktop/iterations-desktop_coach's_profile1@2x.jpg" alt="MyImage" />
         </picture>
         <p>Desktop Coach's Profile Screen Iterations</p>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/lane-side_coach/desktop/iterations-desktop_coach's_profile2@1x.jpg" media="
       (max-width:767px)">
             <img src="img/lane-side_coach/desktop/iterations-desktop_coach's_profile2@2x.jpg" alt="MyImage" />
           </picture>
-          <div>
+        </div>
+          <div class="row">
             <picture>
               <source srcset="img/lane-side_coach/desktop/iterations-desktop_coach's_profile3@1x.jpg" media="
       (max-width:767px)">
               <img src="img/lane-side_coach/desktop/iterations-desktop_coach's_profile3@2x.jpg" alt="MyImage" />
             </picture>
           </div>
-        </div>
-      </div>
       <picture>
         <source srcset="img/lane-side_coach/mobile/iterations-my_appointments@1x.png" media="
     (max-width:767px)">
@@ -503,20 +524,22 @@
           <li>Ratings of previous appointments can be seen.</li>
         </ul>
       </ul>
-      <div>
+      <div class="row">
         <picture>
           <source srcset="img/lane-side_coach/desktop/iterations-desktop_my_appointments1@1x.jpg" media="
       (max-width:767px)">
           <img src="img/lane-side_coach/desktop/iterations-desktop_my_appointments1@2x.jpg" alt="MyImage" />
         </picture>
         <p>Desktop My Appointments Screen Iterations</p>
-        <div>
+      </div>
+        <div class="row">
           <picture>
             <source srcset="img/lane-side_coach/desktop/iterations-desktop_my_appointments2@1x.jpg" media="
       (max-width:767px)">
             <img src="img/lane-side_coach/desktop/iterations-desktop_my_appointments2@2x.jpg" alt="MyImage" />
           </picture>
-          <div>
+        </div>
+          <div class="row">
             <picture>
               <source srcset="img/lane-side_coach/desktop/iterations-desktop_my_appointments3@1x.jpg" media="
       (max-width:767px)">
@@ -524,10 +547,8 @@
             </picture>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div>
+    <div class="container">
       <h3>See For Yourself: Clickable Prototypes</h3>
       <h4>User Flows</h4>
       <ol>
@@ -536,10 +557,14 @@
         <li>The bowler attends a virtual appointment.</li>
       </ol>
       <h4>Mobile Prototype</h4>
+      <div  id="mobile_prototype_image">
       <picture>
         <source srcset="img/lane-side_coach/mobile/home_screen_mobile@1x.jpg" media="
     (max-width:767px)">
-        <img src="img/lane-side_coach/mobile/home_screen_mobile@2x.jpg" alt.invisionapp.com/share/JUXF0UPF8Q4#/screens" target="_blank">here.</a></p>
+        <img src="img/lane-side_coach/mobile/home_screen_mobile@2x.jpg"/>
+      </picture>
+    </div>
+      <p>Explore the mobile prototype by clicking <a href="https://invis.io/JUXF0UPF8Q4" target="_blank">here.</a></p>
         <h4>Desktop Prototype</h4>
         <picture>
           <source srcset="img/lane-side_coach/desktop/home_screen_desktop@1x.jpg" media="
@@ -551,7 +576,7 @@
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>Get in Touch
       </h2>
       <p>I would love to meet you to discuss my work in more detail and how my
@@ -560,7 +585,8 @@
       <div>
         <a href="mailto:tpanek05@gmail.com" class="button contact">Email Me</a>
       </div>
-      <div>
+      <div class="row">
+      <div id="linkedin">
         <a href="https://linkedin.com/in/timothypanek" target="_blank">
           <?xml version="1.0" ?>
           <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512"
@@ -581,6 +607,7 @@
       </div>
       <p>Copyright Timothy Panek 2020</p>
     </div>
+  </div>
   </footer>
 </body>
 
