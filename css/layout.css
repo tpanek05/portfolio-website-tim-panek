@@ -1,12 +1,28 @@
 /* layout styling */
-
 .container {
   padding: 0 15px;
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
   margin: 25px 0;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+[class*='col-'] {
+  float: left;
+  padding: 10px;
+}
+
+#about-content h3 {
+  margin-top: 0;
 }
 
 #lane-side_coach_work .row {
@@ -53,23 +69,23 @@
 }
 
 #my_story h2 {
-  text-align: center
+  text-align: center;
 }
 
 #main-content h1 {
-  text-align: center
+  text-align: center;
 }
 
 #main-content h2 {
-  text-align: center
+  text-align: center;
 }
 
 #main-content h3 {
-  text-align: center
+  text-align: center;
 }
 
 #main-content h4 {
-  text-align: center
+  text-align: center;
 }
 
 #hero {
@@ -85,57 +101,71 @@
 }
 
 #vocab_master_image {
-  width: 35%
+  width: 35%;
+  margin: auto;
 }
 
 #vocab_master_image_header {
-  width: 60%
+  width: 40%;
+  margin: auto;
 }
 
 #vocab_master_midfidelity_home {
-  width: 60%
+  width: 40%;
+  margin: auto;
 }
 
 #mobile_prototype_image {
-  width: 60%
+  width: 40%;
+  margin: auto;
+}
+
+#desktop_prototype_image {
+  margin: auto;
 }
 
 #coach_up_logo {
-  width: 35%
+  width: 35%;
+  margin: auto;
 }
 
 #flash_cards_plus_icon {
-  width: 35%
+  width: 35%;
+  margin: auto;
 }
 
 #flash_cards_io_icon {
-  width: 35%
+  width: 35%;
+  margin: auto;
 }
 
 #study_blue_icon {
-  width: 35%
+  width: 35%;
+  margin: auto;
 }
 
 #low-fidelity_landing {
-  width: 60%
+  width: 40%;
+  margin: auto;
 }
 
 #study_together_home {
-  width: 60%
+  width: 40%;
+  margin: auto;
 }
 
 .logo {
   max-width: 250px;
 }
 
-header{
+header {
   background-color: #eeeeee;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  -moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
   width: 100%;
 }
 
@@ -143,30 +173,197 @@ main {
   padding-top: 108px;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0
 }
 
-nav > ul > li{
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #076Dbb
 }
 
-nav > ul > li > a:visited {
+nav>ul>li>a:visited {
   color: #076Dbb
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   color: #3190c4
 }
 
-nav > ul > li > a:active {
+nav>ul>li>a:active {
   color: #033f6d
 }
+
+/* Medium Devices 640px and larger */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px
+  }
+
+  main {
+    padding-top: 99px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  #hero {
+    text-align: center;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .col-md-2 {
+    width: 16.66%
+  }
+
+  .col-md-3 {
+    width: 25%
+  }
+
+  .col-md-4 {
+    width: 33.33%
+  }
+
+  .col-md-5 {
+    width: 41.66%
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  #flash_cards_plus_icon {
+    width: 100%;
+    margin: auto;
+  }
+
+  #flash_cards_io_icon {
+    width: 100%;
+    margin: auto;
+  }
+
+  #study_blue_icon {
+    width: 100%;
+    margin: auto;
+  }
+
+  #low-fidelity_landing {
+    width: 30%;
+    margin: auto;
+  }
+
+  #study_together_home {
+    width: 30%;
+    margin: auto;
+  }
+
+  #mobile_prototype_image {
+    width: 30%;
+    margin: auto;
+  }
+
+  #desktop_prototype_image {
+    width: 40%;
+    margin: auto;
+  }
+  #about_pic {
+    width: 60%;
+    margin: auto;
+  }
+
+  /* Large Devices 1024px or larger */
+  @media only screen and (min-width: 1024px) {
+    .col-lg-3 {
+      width: 25%;
+    }
+
+    .col-lg-4 {
+      width: 33.33%;
+    }
+
+    .col-lg-5 {
+      width: 41.66%;
+    }
+
+    .col-lg-6 {
+      width: 50%;
+    }
+
+    .col-lg-7 {
+      width: 58.33%;
+    }
+
+    .col-lg-8 {
+      width: 66.66%;
+    }
+
+    #vocab_master_image_header {
+      width: 25%;
+      margin: auto;
+    }
+
+    #vocab_master_quotes {
+      text-align: center;
+      margin: auto;
+    }
+
+    #vocab_master_midfidelity_home {
+      width: 25%
+    }
+
+    #low-fidelity_landing {
+      width: 20%;
+      margin: auto;
+    }
+
+    #study_together_home {
+      width: 25%;
+      margin: auto;
+    }
+
+    #lane-side_coach_image_header {
+      width: 70%;
+      margin: auto;
+    }
+
+    #coach_up_logo {
+      width: 25%;
+      margin: auto;
+    }
+
+    #mobile_prototype_image {
+      width: 20%;
+      margin: auto;
+    }
+
+    #desktop_prototype_image {
+      width: 30%;
+      margin: auto;
+    }
+
+    #about_pic {
+      width: 45%;
+      margin: auto;
+    }
+  }
+
+  /* X-Large devices 1440px or larger */
+  @media only screen and (min-width: 1440px) {}
