@@ -19,7 +19,7 @@
         <img src="img/logo.svg" alt="Tim Panek" class="logo" />
       </a>
     </div>
-    <nav class="container">
+    <nav>
       <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
@@ -34,70 +34,75 @@
         <h1>About Me</h1>
       </div>
     </div>
-
-      <div class="container">
-        <picture>
-          <source srcset="img/portfolio_photo@1x.jpg" media="
+    <!-- About image and description -->
+    <div class="container">
+      <div id="about_pic">
+      <picture>
+        <source srcset="img/portfolio_photo@1x.jpg" media="
         (max-width:767px)">
-          <img src="img/portfolio_photo@2x.jpg" alt="MyImage" />
-        </picture>
-        <div id="my_story">
-          <div>
-            <h2>My Story</h2>
-            <p>I am a professional counselor turned UX designer based in Randolph,
-              NJ looking for opportunities that will challenge my skills and help
-              me to grow professionally. As a counselor, I gained 15 years of
-              experience in understanding clients’ unique life experiences so that
-              I could craft individualized plans that helped improve their quality
-              of life. As such, I am passionate about user-centered design and
-              believe that by truly understanding the user, I can develop creative
-              solutions which will make his/her life easier. I am available for
-              full-time and freelance work opportunities.
-            </p>
-            <p>When I’m not working on my designs, I’m working on my bowling game.
-              I’ve been bowling for 26 years. I have bowled 13 perfect games and
-              my collegiate bowling team was inducted into the Lindenwood
-              University Athletic Hall of Fame in 2018 for having won the
-              university’s national bowling title in 2005. Bowling is my time to
-              reduce stress, recharge my battery, and have a good time.
-            </p>
-            <a href="files/panek-timothy-resume.pdf" target="_blank" class="button readMore downloadResume">Download My Resume</a>
-          </div>
-          <div>
-            <h2>Skills & Tools</h2>
-            <div>
+        <img src="img/portfolio_photo@2x.jpg" alt="MyImage" />
+      </picture>
+    </div>
+      <div id="my_story">
+        <div>
+          <h2>My Story</h2>
+          <p>I am a professional counselor turned UX designer based in Randolph,
+            NJ looking for opportunities that will challenge my skills and help
+            me to grow professionally. As a counselor, I gained 15 years of
+            experience in understanding clients’ unique life experiences so that
+            I could craft individualized plans that helped improve their quality
+            of life. As such, I am passionate about user-centered design and
+            believe that by truly understanding the user, I can develop creative
+            solutions which will make his/her life easier. I am available for
+            full-time and freelance work opportunities.
+          </p>
+          <p>When I’m not working on my designs, I’m working on my bowling game.
+            I’ve been bowling for 26 years. I have bowled 13 perfect games and
+            my collegiate bowling team was inducted into the Lindenwood
+            University Athletic Hall of Fame in 2018 for having won the
+            university’s national bowling title in 2005. Bowling is my time to
+            reduce stress, recharge my battery, and have a good time.
+          </p>
+          <a href="files/panek-timothy-resume.pdf" target="_blank" class="button readMore downloadResume">Download My Resume</a>
+        </div>
+        <!-- Skills and Tools -->
+        <div>
+          <h2>Skills & Tools</h2>
+          <div class="row">
+            <div class="col-md-6">
               <h3>Relevant Skills</h3>
+              <ul>
+                <li>User-Centered Design</li>
+                <li>Emotional & Visual Design</li>
+                <li>Competitive Analysis</li>
+                <li>Generative & Evaluative Research</li>
+                <li>User Personas</li>
+                <li>Mobile-First Design</li>
+                <li>Responsive Design</li>
+                <li>Information Architecture</li>
+                <li>User Flows</li>
+                <li>Iterative Wireframing</li>
+                <li>Prototyping</li>
+                <li>Usability & Preference Testing</li>
+                <li>Design Documentation & Presentation</li>
+                <li>UI Elements, Patterns, & Trends</li>
+                <li>Visual Design Principles & Best Practices</li>
+                <li>Color & Image Theory</li>
+                <li>Iconography</li>
+                <li>Typography</li>
+                <li>Branding & Style Guides</li>
+                <li>Presentatio Mockups</li>
+                <li>Handoff & Collaboration</li>
+              </ul>
             </div>
-            <ul>
-              <li>User-Centered Design</li>
-              <li>Emotional & Visual Design</li>
-              <li>Competitive Analysis</li>
-              <li>Generative & Evaluative Research</li>
-              <li>User Personas</li>
-              <li>Mobile-First Design</li>
-              <li>Responsive Design</li>
-              <li>Information Architecture</li>
-              <li>User Flows</li>
-              <li>Iterative Wireframing</li>
-              <li>Prototyping</li>
-              <li>Usability & Preference Testing</li>
-              <li>Design Documentation & Presentation</li>
-              <li>UI Elements, Patterns, & Trends</li>
-              <li>Visual Design Principles & Best Practices</li>
-              <li>Color & Image Theory</li>
-              <li>Iconography</li>
-              <li>Typography</li>
-              <li>Branding & Style Guides</li>
-              <li>Presentatio Mockups</li>
-              <li>Handoff & Collaboration</li>
-            </ul>
             <div>
-              <div class="row">
+              <div class="col-md-6">
                 <h3>Tools I Use</h3>
                 <ul>
                   <li>Sketch</li>
-                  <li>InVision</li>
                   <li>Balsamiq</li>
+                  <li>InVision</li>
+                  <li>Marvel</li>
                   <li>Usability Hub</li>
                 </ul>
               </div>
@@ -105,6 +110,7 @@
           </div>
         </div>
       </div>
+    </div>
   </main>
 
   <footer id="contact">
