@@ -18,7 +18,7 @@
         <img src="img/logo.svg" alt="Tim Panek" class="logo" />
       </a>
     </div>
-    <nav class="container">
+    <nav>
       <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
@@ -27,42 +27,48 @@
     </nav>
   </header>
 
+  <!-- study together mockup and title -->
   <main id="main-content">
     <div>
       <div class="container">
         <h1>Study Together</h1>
-        <picture>
-          <source srcset="img/study_together/mockups/mockup_wireframe_float@1x.jpg" media="
+        <div>
+          <picture>
+            <source srcset="img/study_together/mockups/mockup_wireframe_float@1x.jpg" media="
           (max-width:767px)">
-          <img src="img/study_together/mockups/mockup_wireframe_float@2x.jpg" alt="MyImage" />
-        </picture>
+            <img src="img/study_together/mockups/mockup_wireframe_float@2x.jpg" alt="MyImage" />
+          </picture>
+        </div>
       </div>
     </div>
-
+    <!-- study together overview -->
     <div class="container">
       <div>
         <div class="row">
-          <h2>About</h2>
-          <div>
-            <ul>
-              <li>Responsive Web App</li>
-              <li>New Jersey, USA</li>
-              <li>2 Months</li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <div class="row">
-            <h2>My Role</h2>
+          <div class="col-md-4">
+            <h2>About</h2>
             <div>
               <ul>
-                <li>UX Designer</li>
-                <li>UI Designer</li>
-                <li>User-Centered Design</li>
+                <li>Responsive Web App</li>
+                <li>New Jersey, USA</li>
+                <li>2 Months</li>
               </ul>
             </div>
+          </div>
+          <div>
+
+            <div class="col-md-4">
+              <h2>My Role</h2>
+              <div>
+                <ul>
+                  <li>UX Designer</li>
+                  <li>UI Designer</li>
+                  <li>User-Centered Design</li>
+                </ul>
+              </div>
             </div>
-            <div class="row">
+
+            <div class="col-md-4">
               <h2>Tools</h2>
               <div>
                 <ul>
@@ -72,10 +78,11 @@
                 </ul>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
-
+    <!-- problem / objective -->
     <div class="container">
       <h3>An Overview</h3>
       <h4>The Problem</h4>
@@ -95,11 +102,13 @@
     <div class="container">
       <h3>Understanding Our User, Alex Jones</h3>
       <h4>User Persona</h4>
+      <!-- persona image -->
       <picture>
         <source srcset="img/study_together/personas/persona@1x.jpg" media="
   (max-width:767px)">
         <img src="img/study_together/personas/persona@2x.jpg" alt="MyImage" />
       </picture>
+      <!-- user journey image -->
       <h4>User Journey</h4>
       <picture>
         <source srcset="img/study_together/user_flows_stories_journies/user_journey@1x.jpg" media="
@@ -111,6 +120,7 @@
     <div class="container">
       <h3>User Flow & User Stories</h3>
       <h2>Site Map</h2>
+      <!-- site map image -->
       <picture>
         <source srcset="img/study_together/user_flows_stories_journies/user_flow-site_map@1x.png" media="
   (max-width:767px)">
@@ -119,20 +129,22 @@
       <h2>User Flows with User Stories</h2>
       <div>
         <div class="row">
-        <picture>
-          <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_1_and_2@1x.png" media="
+          <!-- user flow and user stories images -->
+          <div class="col-lg-4">
+            <picture>
+              <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_1_and_2@1x.png" media="
     (max-width:767px)">
-          <img src="img/study_together/user_flows_stories_journies/user_flow_and_stories_1_and_2@2x.png" alt="MyImage" />
-        </picture>
-      </div>
-        <div class="row">
-          <picture>
-            <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_3_and_4@1x.png" media="
+              <img src="img/study_together/user_flows_stories_journies/user_flow_and_stories_1_and_2@2x.png" alt="MyImage" />
+            </picture>
+          </div>
+          <div class="col-lg-4">
+            <picture>
+              <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_3_and_4@1x.png" media="
       (max-width:767px)">
-            <img src="img/study_together/user_flows_stories_journies/user_flow_and_stories_3_and_4@2x.png" alt="MyImage" />
-          </picture>
-        </div>
-          <div class="row">
+              <img src="img/study_together/user_flows_stories_journies/user_flow_and_stories_3_and_4@2x.png" alt="MyImage" />
+            </picture>
+          </div>
+          <div class="col-lg-4">
             <picture>
               <source srcset="img/study_together/user_flows_stories_journies/user_flow_and_stories_5_and_6@1x.png" media="
         (max-width:767px)">
@@ -141,10 +153,12 @@
           </div>
         </div>
       </div>
+    </div>
 
     <div class="container">
       <h3>Low Fidelity Wireframes and Rapid Prototyping</h3>
       <h4>Paper/Pencil Flow: Create A Profile, Search For A Student and Connect</h4>
+      <!-- paper pencil prototype -->
       <picture>
         <source srcset="img/study_together/testing/low_fidelity_paper_prototype@1x.png" media="
   (max-width:767px)">
@@ -152,16 +166,17 @@
       </picture>
       <h4>Low Fidelity Prototype</h4>
       <p>Once my low fidelity wireframes were created, I quickly developed a clickable prototype for user testing.</p>
-<div id="low-fidelity_landing">
-      <picture>
-        <source srcset="img/study_together/mobile/low_fidelity_landing_for_prototype@1x.png" media="
+      <div id="low-fidelity_landing">
+        <!-- low fidelity prototype -->
+        <picture>
+          <source srcset="img/study_together/mobile/low_fidelity_landing_for_prototype@1x.png" media="
   (max-width:767px)">
-        <img src="img/study_together/mobile/low_fidelity_landing_for_prototype@2x.png" alt="MyImage" />
-      </picture>
-    </div>
+          <img src="img/study_together/mobile/low_fidelity_landing_for_prototype@2x.png" alt="MyImage" />
+        </picture>
+      </div>
       <p>View my initial clickable prototype <a href="https://projects.invisionapp.com/share/Y4Y8JENT9A6#/screens" target="_blank">here.</a></p>
     </div>
-
+    <!-- low fidelity user testing -->
     <div class="container">
       <h3>Low Fidelity User Testing</h3>
       <h4>About The Tests</h4>
@@ -182,6 +197,7 @@
       <div>
         <p>"I'd like to be able to see students' interests and specializations to get to know them before I message them." - Participant"</p>
         <div>
+          <!-- error ratings image -->
           <picture>
             <source srcset="img/study_together/testing/error_ratings@1x.jpg" media="
       (max-width:767px)">
@@ -203,6 +219,7 @@
         <li>Depicts a key message that a network of students can help maintain motivation needed for student success.</li>
         <li>Illustrates that students can gain an enhanced perspective by sharing and reviewing resources and assignments.</li>
       </ul>
+      <!-- mood board -->
       <picture>
         <source srcset="img/study_together/mood_board/mood_board@1x.jpg" media="
   (max-width:767px)">
@@ -212,36 +229,44 @@
       <p>Created with Paper/Pencil, Balsamiq, and then Sketch.</p>
       <div>
         <div class="row">
-        <picture>
-          <source srcset="img/study_together/mobile/low_to_high-home_screen@1x.jpg" media="
+          <!-- home screen low to high fidelity -->
+          <div class="col-lg-6">
+            <picture>
+              <source srcset="img/study_together/mobile/low_to_high-home_screen@1x.jpg" media="
     (max-width:767px)">
-          <img src="img/study_together/mobile/low_to_high-home_screen@2x.jpg" alt="MyImage" />
-        </picture>
-        <p>Home Screen/Newsreel</p>
-        <div>
-          <picture>
-            <source srcset="img/study_together/mobile/low_to_high_profile@1x.jpg" media="
+              <img src="img/study_together/mobile/low_to_high-home_screen@2x.jpg" alt="MyImage" />
+            </picture>
+            <p>Home Screen/Newsreel</p>
+          </div>
+          <div class="col-lg-6">
+            <!-- profile low to high fidelity -->
+            <picture>
+              <source srcset="img/study_together/mobile/low_to_high_profile@1x.jpg" media="
       (max-width:767px)">
-            <img src="img/study_together/mobile/low_to_high_profile@2x.jpg" alt="MyImage" />
-          </picture>
-          <p>Profile</p>
+              <img src="img/study_together/mobile/low_to_high_profile@2x.jpg" alt="MyImage" />
+            </picture>
+            <p>Profile</p>
           </div>
         </div>
-      </div>
-      <div class="div">
-        <picture>
-          <source srcset="img/study_together/mobile/low_to_high-search@1x.jpg" media="
+        <div class="row">
+          <!-- search low to high fidelity -->
+          <div class="col-lg-6">
+            <picture>
+              <source srcset="img/study_together/mobile/low_to_high-search@1x.jpg" media="
     (max-width:767px)">
-          <img src="img/study_together/mobile/low_to_high-search@2x.jpg" alt="MyImage" />
-        </picture>
-        <p>Search</p>
-        <div>
-          <picture>
-            <source srcset="img/study_together/mobile/low_to_high-messaging@1x.jpg" media="
+              <img src="img/study_together/mobile/low_to_high-search@2x.jpg" alt="MyImage" />
+            </picture>
+            <p>Search</p>
+          </div>
+          <div class="col-lg-6">
+            <!-- messaging low to high fidelity -->
+            <picture>
+              <source srcset="img/study_together/mobile/low_to_high-messaging@1x.jpg" media="
       (max-width:767px)">
-            <img src="img/study_together/mobile/low_to_high-messaging@2x.jpg" alt="MyImage" />
-          </picture>
-          <p>Messaging</p>
+              <img src="img/study_together/mobile/low_to_high-messaging@2x.jpg" alt="MyImage" />
+            </picture>
+            <p>Messaging</p>
+          </div>
         </div>
       </div>
     </div>
@@ -251,33 +276,40 @@
       <p>To view the full Style Guide, click <a href="files/study_together_style_guide.pdf" target="_blank">here.</a></p>
       <div>
         <div class="row">
-        <picture>
-          <source srcset="img/study_together/style_guide/style_guide_sample-color@1x.jpg" media="
+          <!-- style guide imagery -->
+          <div class="col-lg-3">
+            <picture>
+              <source srcset="img/study_together/style_guide/style_guide_sample-color@1x.jpg" media="
     (max-width:767px)">
-          <img src="img/study_together/style_guide/style_guide_sample-color@2x.jpg" alt="MyImage" />
-        </picture>
-      </div>
-        <div class="row">
-          <picture>
-            <source srcset="img/study_together/style_guide/style_guide_sample-typography@1x.jpg" media="
-      (max-width:767px)">
-            <img src="img/study_together/style_guide/style_guide_sample-typography@2x.jpg" alt="MyImage" />
-          </picture>
+              <img src="img/study_together/style_guide/style_guide_sample-color@2x.jpg" alt="MyImage" />
+            </picture>
           </div>
-          <div class="row">
+
+          <div class="col-lg-3">
+            <picture>
+              <source srcset="img/study_together/style_guide/style_guide_sample-typography@1x.jpg" media="
+      (max-width:767px)">
+              <img src="img/study_together/style_guide/style_guide_sample-typography@2x.jpg" alt="MyImage" />
+            </picture>
+          </div>
+
+          <div class="col-lg-3">
             <picture>
               <source srcset="img/study_together/style_guide/style_guide_sample-iconography@1x.jpg" media="
         (max-width:767px)">
               <img src="img/study_together/style_guide/style_guide_sample-iconography@2x.jpg" alt="MyImage" />
             </picture>
-            <div>
-              <picture>
-                <source srcset="img/study_together/style_guide/style_guide_sample-ui_elements@1x.jpg" media="
-          (max-width:767px)">
-                <img src="img/study_together/style_guide/style_guide_sample-ui_elements@2x.jpg" alt="MyImage" />
-              </picture>
-            </div>
           </div>
+
+          <div class="col-lg-3">
+            <picture>
+              <source srcset="img/study_together/style_guide/style_guide_sample-ui_elements@1x.jpg" media="
+          (max-width:767px)">
+              <img src="img/study_together/style_guide/style_guide_sample-ui_elements@2x.jpg" alt="MyImage" />
+            </picture>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -285,18 +317,21 @@
       <h3>Responsive Design</h3>
       <h4>Mobile First Design</h4>
       <p>After developing the mobile app, I developed tablet and desktop iterations.</p>
+      <!-- home screen responsive mockup -->
       <picture>
         <source srcset="img/study_together/mockups/mockup-home_screen@1x.png" media="
   (max-width:767px)">
         <img src="img/study_together/mockups/mockup-home_screen@2x.png" alt="MyImage" />
       </picture>
       <p>Home Screen/Newsreel</p>
+      <!-- search screen responsive mockup -->
       <picture>
         <source srcset="img/study_together/mockups/mockup-search@1x.png" media="
   (max-width:767px)">
         <img src="img/study_together/mockups/mockup-search@2x.png" alt="MyImage" />
       </picture>
       <p>Search</p>
+      <!-- profile screen responsive mockup -->
       <picture>
         <source srcset="img/study_together/mockups/mockup-profile@1x.png" media="
   (max-width:767px)">
@@ -304,7 +339,7 @@
       </picture>
       <p>Profile</p>
     </div>
-
+    <!-- prototype -->
     <div class="container">
       <h3>See For Yourself: Clickable Prototype</h3>
       <h4>User Flows</h4>
@@ -318,29 +353,32 @@
       </ol>
       <h4>Mobile Prototype</h4>
       <div id="study_together_home">
-      <picture>
-        <source srcset="img/study_together/mobile/home_screen_mobile@1x.jpg" media="
+        <picture>
+          <source srcset="img/study_together/mobile/home_screen_mobile@1x.jpg" media="
   (max-width:767px)">
-        <img src="img/study_together/mobile/home_screen_mobile@2x.jpg" alt="MyImage" />
-      </picture>
-    </div>
+          <img src="img/study_together/mobile/home_screen_mobile@2x.jpg" alt="MyImage" />
+        </picture>
+      </div>
       <p>Explore the mobile prototype by clicking <a href="https://projects.invisionapp.com/share/M6YTOSEHPVN#/screens" target="_blank">here.</a></p>
     </div>
 
+    <!-- mobile mockups -->
     <div class="container">
       <div class="row">
-      <picture>
-        <source srcset="img/study_together/mockups/mockup-landing_screen@1x.jpg" media="
+        <div class="col-lg-6">
+          <picture>
+            <source srcset="img/study_together/mockups/mockup-landing_screen@1x.jpg" media="
   (max-width:767px)">
-        <img src="img/study_together/mockups/mockup-landing_screen@2x.jpg" alt="MyImage" />
-      </picture>
-    </div>
-      <div class="row">
-        <picture>
-          <source srcset="img/study_together/mockups/mockup-search@1x.jpg" media="
+            <img src="img/study_together/mockups/mockup-landing_screen@2x.jpg" alt="MyImage" />
+          </picture>
+        </div>
+        <div class="col-lg-6">
+          <picture>
+            <source srcset="img/study_together/mockups/mockup-search@1x.jpg" media="
     (max-width:767px)">
-          <img src="img/study_together/mockups/mockup-search@2x.jpg" alt="MyImage" />
-        </picture>
+            <img src="img/study_together/mockups/mockup-search@2x.jpg" alt="MyImage" />
+          </picture>
+        </div>
       </div>
     </div>
   </main>
