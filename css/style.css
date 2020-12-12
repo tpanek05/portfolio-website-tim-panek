@@ -12,7 +12,7 @@ Light Gray: #eeeeee
 
 body {
   background-color: #eeeeee;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
@@ -25,7 +25,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 {
@@ -35,12 +35,16 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h4 {
   font-size: 1.35em;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+.bold span{
+  font-weight: bold;
 }
 
 img {
@@ -127,33 +131,4 @@ a:active {
   background-color: #076dbb;
   color: #ffffff;
   text-decoration: none;
-}
-
-/* Animation */
-
-@keyframes color-change {
-  from {fill: #edc655}
-  to {fill: #f76414}
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move{
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px, 50px);}
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
 }
