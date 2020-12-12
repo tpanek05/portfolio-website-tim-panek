@@ -44,6 +44,10 @@
   text-align: center;
 }
 
+#hero {
+  color: #eeeeee;
+}
+
 #lane-side_coach_work h2 {
   text-align: center;
 }
@@ -58,6 +62,7 @@
 
 #vocab_master_work h3 {
   text-align: center;
+  width: 100%;
 }
 
 #contact h2 {
@@ -104,6 +109,11 @@
   width: 100%;
   margin: auto;
   text-align: center;
+}
+
+#vocab_master_image img{
+  height: 400px;
+  width: auto;
 }
 
 #vocab_master_image_header {
@@ -155,14 +165,27 @@
   margin: auto;
 }
 
+.backgroundhero {
+  background-image: url("../img/mountains.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.logowrapper {
+  display: inline-block;
+  margin: 1em;
+  line-height: .5;
+}
+
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 header {
   background-color: #eeeeee;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   position: fixed;
   -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
@@ -171,16 +194,13 @@ header {
 }
 
 main {
-  padding-top: 108px;
+  padding-top: 60px;
 }
 
 nav>ul {
   list-style-type: none;
-  padding: 0
-}
-
-nav>ul>li {
-  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -202,8 +222,43 @@ nav>ul>li>a:active {
   color: #033f6d
 }
 
+.col-sm-12 {
+  width: 100%;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 20px;
+}
+
 /* Medium Devices 640px and larger */
 @media only screen and (min-width: 640px) {
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+  .logo {
+    max-width: 250px;
+  }
 
 #vocab_master_image {
   width: 35%;
@@ -215,14 +270,21 @@ nav>ul>li>a:active {
     padding: 20px 0 13px;
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+
   nav {
     width: auto;
     float: right;
-    margin-top: 4px
+  }
+
+  nav>ul {
+    margin: 1em 0;
   }
 
   main {
-    padding-top: 99px;
+    padding-top: 95px;
   }
 
   body {
@@ -320,6 +382,10 @@ nav>ul>li>a:active {
 
     .col-lg-8 {
       width: 66.66%;
+    }
+
+    .logo {
+      max-width: 250px;
     }
 
     #vocab_master_image_header {
