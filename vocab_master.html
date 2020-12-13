@@ -14,22 +14,22 @@
 
 <body id="main-page">
   <header>
-    <div class style="
-      display: inline-block;
-      margin: 1em;
-      ">
+    <div class="navtoggle" id="myNavtoggle">
+    <div class="logowrapper">
       <a href="index.html">
         <img src="img/logo.svg" alt="Tim Panek" class="logo" />
       </a>
     </div>
+
     <nav>
       <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
       </ul>
     </nav>
+  </div>
   </header>
   <!-- mockup and heading -->
   <main id="main-content">
