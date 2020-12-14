@@ -112,7 +112,7 @@
 }
 
 #vocab_master_image img{
-  height: 400px;
+  height: 300px;
   width: auto;
 }
 
@@ -395,6 +395,21 @@ nav>ul>li>a:active {
     }
 
     #vocab_master_quotes {
+      text-align: center;
+      margin: auto;
+    }
+
+    #study_together_quotes {
+      text-align: center;
+      margin: auto;
+    }
+
+    #lane-side_coach_quotes {
+      text-align: center;
+      margin: auto;
+    }
+
+    #lane-side_coach_quotes2 {
       text-align: center;
       margin: auto;
     }
