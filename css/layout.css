@@ -46,6 +46,7 @@
 
 #hero {
   color: #eeeeee;
+  text-align: center;
 }
 
 #lane-side_coach_work h2 {
@@ -201,6 +202,7 @@ nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 nav>ul>li>a {
@@ -226,12 +228,23 @@ nav>ul>li>a:active {
   width: 100%;
 }
 
-.navtoggle.responsive li {
-  display: block;
-}
-
 .navtoggle li:not(:last-child) {
   display: none;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  border-top: 1px #076dbb solid;
+  padding: 10px;
+}
+
+.navtoggle.responsive li:first-child,
+.navtoggle.responsive li:last-child {
+  border-top: 0;
+}
+
+.navtoggle.responsive li:last-child {
+  padding-bottom: 0;
 }
 
 .navtoggle,
@@ -358,6 +371,7 @@ nav>ul>li>a:active {
     width: 60%;
     margin: auto;
   }
+}
 
   /* Large Devices 1024px or larger */
   @media only screen and (min-width: 1024px) {
