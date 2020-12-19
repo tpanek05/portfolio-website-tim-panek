@@ -244,6 +244,7 @@ nav>ul>li>a:active {
 
 .navtoggle.responsive li:last-child {
   padding-bottom: 0;
+  padding: 0px;
 }
 
 .navtoggle,
@@ -254,7 +255,7 @@ nav>ul>li>a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 5px;
+  top: 7px;
   font-size: 20px;
 }
 
@@ -266,6 +267,7 @@ nav>ul>li>a:active {
 
   .navtoggle.responsive li {
     border-top: none;
+    padding: 0px 0 0px;
   }
 
   .navtoggle li:last-child {
