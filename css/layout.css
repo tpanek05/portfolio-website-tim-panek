@@ -112,7 +112,7 @@
   text-align: center;
 }
 
-#vocab_master_image img{
+#vocab_master_image img {
   height: 300px;
   width: auto;
 }
@@ -181,7 +181,7 @@
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 175px;
 }
 
 header {
@@ -206,8 +206,7 @@ nav>ul {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
-  text-transform: uppercase;
+  padding: 0 10px;
   font-weight: 600;
   color: #076Dbb
 }
@@ -261,27 +260,26 @@ nav>ul>li>a:active {
 
 /* Medium Devices 640px and larger */
 @media only screen and (min-width: 640px) {
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
+  .navtoggle.responsive li {
+    border-top: none;
+  }
 
-.navtoggle.responsive li {
-  border-top: none;
-}
-
-.navtoggle li:last-child {
-  display: none;
-}
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   .logo {
     max-width: 250px;
   }
 
-#vocab_master_image {
-  width: 35%;
-  margin: auto;
-}
+  #vocab_master_image {
+    width: 35%;
+    margin: auto;
+  }
 
   header {
     text-align: unset;
@@ -298,7 +296,7 @@ nav>ul>li>a:active {
   }
 
   nav>ul {
-    margin: 1em 0;
+    margin: 0.9em 0;
   }
 
   main {
@@ -317,7 +315,7 @@ nav>ul>li>a:active {
     display: block;
   }
 
-  .semibold span{
+  .semibold span {
     font-weight: 500;
     font-size: 20px;
   }
@@ -376,106 +374,107 @@ nav>ul>li>a:active {
     width: 40%;
     margin: auto;
   }
+
   #about_pic {
     width: 60%;
     margin: auto;
   }
 }
 
-  /* Large Devices 1024px or larger */
-  @media only screen and (min-width: 1024px) {
-    .col-lg-3 {
-      width: 25%;
-    }
-
-    .col-lg-4 {
-      width: 33.33%;
-    }
-
-    .col-lg-5 {
-      width: 41.66%;
-    }
-
-    .col-lg-6 {
-      width: 50%;
-    }
-
-    .col-lg-7 {
-      width: 58.33%;
-    }
-
-    .col-lg-8 {
-      width: 66.66%;
-    }
-
-    .logo {
-      max-width: 250px;
-    }
-
-    #vocab_master_image_header {
-      width: 25%;
-      margin: auto;
-    }
-
-    #vocab_master_quotes {
-      text-align: center;
-      margin: auto;
-    }
-
-    #study_together_quotes {
-      text-align: center;
-      margin: auto;
-    }
-
-    #lane-side_coach_quotes {
-      text-align: center;
-      margin: auto;
-    }
-
-    #lane-side_coach_quotes2 {
-      text-align: center;
-      margin: auto;
-    }
-
-    #vocab_master_midfidelity_home {
-      width: 25%
-    }
-
-    #low-fidelity_landing {
-      width: 20%;
-      margin: auto;
-    }
-
-    #study_together_home {
-      width: 25%;
-      margin: auto;
-    }
-
-    #lane-side_coach_image_header {
-      width: 70%;
-      margin: auto;
-    }
-
-    #coach_up_logo {
-      width: 25%;
-      margin: auto;
-    }
-
-    #mobile_prototype_image {
-      width: 20%;
-      margin: auto;
-    }
-
-    #desktop_prototype_image {
-      width: 30%;
-      margin: auto;
-    }
-
-    #about_pic {
-      width: 45%;
-      margin: auto;
-    }
+/* Large Devices 1024px or larger */
+@media only screen and (min-width: 1024px) {
+  .col-lg-3 {
+    width: 25%;
   }
 
-  /* X-Large devices 1440px or larger */
-  @media only screen and (min-width: 1440px) {}
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  #vocab_master_image_header {
+    width: 25%;
+    margin: auto;
+  }
+
+  #vocab_master_quotes {
+    text-align: center;
+    margin: auto;
+  }
+
+  #study_together_quotes {
+    text-align: center;
+    margin: auto;
+  }
+
+  #lane-side_coach_quotes {
+    text-align: center;
+    margin: auto;
+  }
+
+  #lane-side_coach_quotes2 {
+    text-align: center;
+    margin: auto;
+  }
+
+  #vocab_master_midfidelity_home {
+    width: 25%
+  }
+
+  #low-fidelity_landing {
+    width: 20%;
+    margin: auto;
+  }
+
+  #study_together_home {
+    width: 25%;
+    margin: auto;
+  }
+
+  #lane-side_coach_image_header {
+    width: 70%;
+    margin: auto;
+  }
+
+  #coach_up_logo {
+    width: 25%;
+    margin: auto;
+  }
+
+  #mobile_prototype_image {
+    width: 20%;
+    margin: auto;
+  }
+
+  #desktop_prototype_image {
+    width: 30%;
+    margin: auto;
+  }
+
+  #about_pic {
+    width: 45%;
+    margin: auto;
+  }
+}
+
+/* X-Large devices 1440px or larger */
+@media only screen and (min-width: 1440px) {}
