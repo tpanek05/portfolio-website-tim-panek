@@ -21,6 +21,10 @@
   padding: 10px;
 }
 
+.center {
+  text-align: center;
+}
+
 #about-content h3 {
   margin-top: 0;
 }
@@ -45,7 +49,7 @@
 }
 
 #hero {
-  color: #eeeeee;
+  color: #eee;
   text-align: center;
 }
 
@@ -95,10 +99,10 @@
 }
 
 #hero {
-  background-color: #eeeeee;
+  background-color: #eee;
   padding: 20px 0;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 #linkedin {
@@ -177,7 +181,7 @@
 .logowrapper {
   display: inline-block;
   margin: 1em;
-  line-height: .5;
+  line-height: 0.5;
 }
 
 .logo {
@@ -185,8 +189,8 @@
 }
 
 header {
-  background-color: #eeeeee;
-  padding: 7px 0 7px;
+  background-color: #eee;
+  padding: 7px 0;
   position: fixed;
   -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
@@ -198,29 +202,29 @@ main {
   padding-top: 60px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 10px;
   font-weight: 600;
-  color: #076Dbb
+  color: #076dbb;
 }
 
-nav>ul>li>a:visited {
-  color: #076Dbb
+nav > ul > li > a:visited {
+  color: #076dbb;
 }
 
-nav>ul>li>a:hover {
-  color: #3190c4
+nav > ul > li > a:hover {
+  color: #3190c4;
 }
 
-nav>ul>li>a:active {
-  color: #033f6d
+nav > ul > li > a:active {
+  color: #033f6d;
 }
 
 .col-sm-12 {
@@ -243,8 +247,7 @@ nav>ul>li>a:active {
 }
 
 .navtoggle.responsive li:last-child {
-  padding-bottom: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .navtoggle,
@@ -267,7 +270,7 @@ nav>ul>li>a:active {
 
   .navtoggle.responsive li {
     border-top: none;
-    padding: 0px 0 0px;
+    padding: 0px 0;
   }
 
   .navtoggle li:last-child {
@@ -285,10 +288,10 @@ nav>ul>li>a:active {
 
   header {
     text-align: unset;
-    padding: 20px 0 20px;
+    padding: 20px 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -297,7 +300,7 @@ nav>ul>li>a:active {
     float: right;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 0.9em 0;
   }
 
@@ -323,19 +326,19 @@ nav>ul>li>a:active {
   }
 
   .col-md-2 {
-    width: 16.66%
+    width: 16.66%;
   }
 
   .col-md-3 {
-    width: 25%
+    width: 25%;
   }
 
   .col-md-4 {
-    width: 33.33%
+    width: 33.33%;
   }
 
   .col-md-5 {
-    width: 41.66%
+    width: 41.66%;
   }
 
   .col-md-6 {
@@ -439,7 +442,7 @@ nav>ul>li>a:active {
   }
 
   #vocab_master_midfidelity_home {
-    width: 25%
+    width: 25%;
   }
 
   #low-fidelity_landing {
