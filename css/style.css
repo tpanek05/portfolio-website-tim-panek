@@ -11,7 +11,7 @@ Light Gray: #eeeeee
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #eee;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -19,7 +19,10 @@ body {
   color: #24344f;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -53,23 +56,26 @@ h4 {
 
 img {
   width: 100%;
+
   /* Make images scale correctly  */
 }
 
 a {
-  color: #076Dbb;
+  color: #076dbb;
   text-decoration: none;
+
   /* No underlining */
 }
 
 a:visited {
-  color: #076Dbb;
+  color: #076dbb;
 }
 
 a:hover,
 a:focus {
   color: #3190c4;
   text-decoration: underline;
+
   /* Underlining when hovering over link */
 }
 
@@ -84,7 +90,7 @@ a:active {
 .button.readMore {
   display: inline-block;
   background-color: #076dbb;
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -104,7 +110,7 @@ a:active {
 .button.readMore.downloadResume {
   display: inline-block;
   background-color: #076dbb;
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -133,6 +139,6 @@ a:active {
 
 .button.contact:hover {
   background-color: #076dbb;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
